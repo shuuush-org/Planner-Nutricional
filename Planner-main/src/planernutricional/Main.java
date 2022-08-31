@@ -1128,7 +1128,7 @@ public class Main extends javax.swing.JFrame implements ActionListener {
         // Obtengo el progreso del usuario y se lo agrego al mensaje que luego le voy a mostrar
         for (JProgressBar barra : barras) {
             progreso = ((float) barra.getValue() / (float) barra.getMaximum()) * 100;
-            if (progreso < 80) {
+            if (progreso < 80 && !barra.getName().contains("Vitamina")) {
                 mensaje += "> " + barra.getName() + ": " + Math.round(progreso) + "% del progreso \n";
             }
         }
