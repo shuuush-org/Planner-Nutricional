@@ -1004,8 +1004,8 @@ public class Main extends javax.swing.JFrame implements ActionListener {
         barCaloria.setName("Calorias");
         barProteina.setName("Proteinas");
         barCarbohidrato.setName("Carbohidratos");
-        barSugar.setName("Vitamina C");
-        barFat.setName("Vitamina K");
+        barSugar.setName("Azucar");
+        barFat.setName("Grasas saturadas");
         barFibra.setName("Fibra");
         barCalcio.setName("Calcio");
 
